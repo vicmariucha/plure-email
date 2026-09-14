@@ -17,6 +17,7 @@
       @media only screen and (max-width: 600px) {
         .wrapper {width:100% !important;}
         .p-body {padding:1.5rem 1.25rem !important;}
+        .grid-pad {padding:0 1.25rem 1.5rem 1.25rem !important;}
         .footer-main-pad {padding:1.5rem 1rem !important;}
         .footer-left,.footer-right {display:block !important; width:100% !important; text-align:center !important;}
         .footer-left {padding:0 0 1rem 0 !important;}
@@ -63,46 +64,96 @@
                   </tr>
                 </table>
 
-                <!-- BODY -->
+                <!-- BODY TEXT TOP -->
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                   <tr>
-                    <td class="p-body" style="padding:0 2rem 1.5rem 2rem; color:#502262; font-size:.875rem; line-height:1.45rem; text-align:justify;">
+                    <td class="p-body" style="padding:0.5rem 2rem 1.5rem 2rem; color:#502262; font-size:.875rem; line-height:1.45rem; text-align:left;">
                       <p style="margin:0 0 1rem 0; color:#502262;">
-                        Olá *|PRIMEIRO_NOME|*,
+                        Olá [Nome],
                       </p>
-                      <p style="margin:0 0 1.5rem 0; color:#502262;">
-                        A GSK nos chamou para <strong>instalar uma <span style="background-color: #E0F4FF;">lona em vinil</span> na fachada do escritório</strong> - uma bandeira representando <strong>diversidade, igualdade e inclusão</strong>, em um dos pontos mais visíveis do prédio.
+                      <p style="margin:0; color:#502262; text-align:justify;">
+                        Faz um tempo que a gente não fala. <strong>Quis aproveitar para te mostrar o que andou saindo por aqui.</strong>
                       </p>
                     </td>
                   </tr>
                 </table>
 
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <!-- GRID DE 3 COLUNAS COM IMAGENS E TEXTOS -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF;">
                   <tr>
-                    <td align="center" style="padding:0;">
-                      <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B10%5D%20agosto/email%209/img/fachada-gsk.png" width="600" alt="Fachada GSK" style="width:100%; max-width:600px; height:auto; display:block; object-fit:cover;">
+                    <td align="center" class="grid-pad" style="padding:0 2rem 1.5rem 2rem;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <!-- Coluna 1 -->
+                          <td width="33.33%" align="center" style="vertical-align: top; padding-right: 4px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="center">
+                                  <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B10%5D%20agosto/email%2010/img/kit-caneta-cruzeiro.png" width="171" alt="Texto 1" style="width: 100%; max-width: 184px; height: auto; object-fit: cover; display: block;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding-top: 6px;">
+                                  <span style="font-size:0.75rem; color:#2EB4EF; display:block; text-align:center;">Texto</span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- Coluna 2 -->
+                          <td width="33.33%" align="center" style="vertical-align: top; padding-left: 2px; padding-right: 2px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="center">
+                                  <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B10%5D%20agosto/email%2010/img/kit-corporativo-profarma.png" width="171" alt="Texto 2" style="width: 100%; max-width: 184px; height: auto; object-fit: cover; display: block;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding-top: 6px;">
+                                  <span style="font-size:0.75rem; color:#2EB4EF; display:block; text-align:center;">Texto</span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- Coluna 3 -->
+                          <td width="33.33%" align="center" style="vertical-align: top; padding-left: 4px;">
+                            <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="center">
+                                  <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B10%5D%20agosto/email%2010/img/trofeu-rededor.png" width="171" alt="Texto 3" style="width: 100%; max-width: 184px; height: auto; object-fit: cover; display: block;">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding-top: 6px;">
+                                  <span style="font-size:0.75rem; color:#2EB4EF; display:block; text-align:center;">Texto</span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
 
+                <!-- BODY TEXT BOTTOM & CTA -->
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                   <tr>
-                    <td class="p-body" style="padding:1.5rem 2rem 1.5rem 2rem; color:#502262; font-size:.875rem; line-height:1.5rem; text-align:justify;">
+                    <td class="p-body" style="padding:0 2rem 1.5rem 2rem; color:#502262; font-size:.875rem; line-height:1.5rem; text-align:justify;">
                       <p style="margin:0 0 1.5rem 0; color:#502262;">
-                        Um trabalho em altura, com todo o <strong>protocolo de segurança que a instalação exige</strong>, e ainda assim precisão milimétrica no acabamento. Se sua empresa também tem uma mensagem que precisa ser vista, fico à disposição para conversar sobre o projeto.
+                        Projetos diferentes, processos parecidos: <span style="background:#E0F4FF; padding: 2px 4px;">designer próprio, produção acompanhada e entrega no prazo.</span> Se tiver algo em vista ou quiser retomar, estou por aqui.
                       </p>
 
                       <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto 1.5rem auto; width:100%;">
                         <tr>
-                          <td align="center" style="background:#00AEEF; border-radius:4px; padding:12px 20px;">
+                          <td align="center" style="background:#502262; border-radius:4px; padding:12px 20px;">
                             <a href="https://wa.me/5521998333323" target="_blank" rel="noopener" style="color:#FFFFFF; text-decoration:none; font-size:.8rem; display:block; vertical-align:middle; line-height:21px;">
                               <table role="presentation" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;">
                                 <tr>
                                   <td align="center" valign="middle" style="padding-right:8px; line-height:0;">
-                                    <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B8%5D%20junho/email%2075/img/icone-whatsapp.png" width="21" style="display:block; border:0; outline:none; filter:brightness(0) invert(1);" alt="Ícone Whatsapp em branco">
+                                    <img src="https://raw.githubusercontent.com/vicmariucha/plure-email/main/%5B8%5D%20junho/email%2075/img/icone-whatsapp.png" width="21" style="display:block; border:0; outline:none;" alt="Ícone Whatsapp em branco">
                                   </td>
                                   <td align="center" valign="middle" style="color:#FFFFFF; font-size:.8rem; font-family:'Open Sans', Arial, sans-serif; line-height:normal; font-weight:600;">
-                                    QUERO UMA PROPOSTA PARA COMUNICAÇÃO VISUAL
+                                    QUERO RETOMAR O CONTATO COM A PLURE
                                   </td>
                                 </tr>
                               </table>
@@ -113,7 +164,7 @@
 
                       <p style="margin:0; color:#502262;">
                         Um abraço,<br>
-                        Cícero Dias
+                        André Franco
                       </p>
                     </td>
                   </tr>
